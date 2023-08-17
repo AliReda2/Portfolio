@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin: 0.4em;
+}
+
+nav :nth-child(1) {
+    flex: 1;
+}
+
+.logo {
+    font-size: xxx-large;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar div {
+    padding-right: 1em;
+    font-size: larger;
+}
+
+.header {
+    display: grid;
+    align-content: center;
+    margin: 10em 2em;
+    height: 12em;
+    position: relative;
+}
+
+.header h1,
+h3 {
+    line-height: 1.5em;
+}
+
+.header h4 {
+    padding-bottom: 2em;
+}
+
+.dragLine {
+    background-color: #5918df;
+    height: 300%;
+    left: -19px;
+    position: absolute;
+    top: 13px;
+    width: 1px;
+}
