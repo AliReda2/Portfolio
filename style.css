@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
     color: white;
+    cursor: none;
 }
 
 body {
     background-color: #1a1527;
-    cursor: none;
 }
 
 .bullet,
@@ -57,6 +57,7 @@ nav :nth-child(1) {
     font-size: x-large;
     color: grey;
     text-decoration: none;
+    z-index: 5;
 }
 
 .navbar a:hover {
@@ -109,22 +110,25 @@ nav :nth-child(1) {
 }
 
 .small {
-    width: 6px;
-    height: 6px;
+    width: 3px;
+    height: 3px;
+    background-color: white;
     border: 2px solid #fff;
     border-radius: 50%;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -2.1px;
+    left: -2.9px;
+    z-index: 0;
 }
 
 .big {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 50%;
-    border: #fff solid 3px;
+    border: #fff solid 2px;
     position: absolute;
-    top: -22px;
-    left: -22px;
+    top: -11px;
+    left: -11px;
+    z-index: 0;
 }
