@@ -131,4 +131,6 @@ nav :nth-child(1) {
     top: -11px;
     left: -11px;
     z-index: 0;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
 }
