@@ -27,6 +27,32 @@ body {
     width: 9px;
 }
 
+.small {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -2.1px;
+    left: -2.9px;
+    z-index: 0;
+}
+
+.big {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    border: #fff solid 2px;
+    position: absolute;
+    top: -11px;
+    left: -11px;
+    z-index: 0;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+
 header {
     background-color: black;
     height: 35em;
@@ -74,11 +100,13 @@ nav :nth-child(1) {
 
 .start h1 {
     font-size: xxx-large;
+    line-height: 1.5em;
 }
 
-.start h1,
+
 .start h3 {
     line-height: 1.5em;
+    color: #988e9f;
 }
 
 .start h4 {
@@ -92,12 +120,25 @@ nav :nth-child(1) {
     padding: 2em 0;
 }
 
+.intro h1 {
+    line-height: 1.5em;
+    color: #988e9f;
+}
+
 .projects {
     display: grid;
 }
 
 .links {
-    margin: 8em 18em;
+    margin: 8em 18em 1em;
+    height: 10em;
+}
+
+.links a {
+    text-decoration: none;
+    line-height: 3em;
+    font-size: larger;
+    margin: 1em;
 }
 
 .dragLine {
@@ -109,28 +150,6 @@ nav :nth-child(1) {
     width: 1px;
 }
 
-.small {
-    width: 3px;
-    height: 3px;
-    background-color: white;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: -2.1px;
-    left: -2.9px;
-    z-index: 0;
-}
-
-.big {
-    width: 20px;
-    height: 20px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 50%;
-    border: #fff solid 2px;
-    position: absolute;
-    top: -11px;
-    left: -11px;
-    z-index: 0;
-    transition-duration: 0.1s;
-    transition-timing-function: linear;
+.title {
+    color: #988e9f;
 }
